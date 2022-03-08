@@ -19,9 +19,11 @@ double getMilesDriven() {
 }
 
 //unit test
+/*
 int main() {
     double cost;
     cost = getMilesDriven();
     printf("cost of miles driven: %0.2f", cost);
     return 0;
 }
+*/
