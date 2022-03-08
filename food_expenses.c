@@ -51,6 +51,7 @@ for (int i = 0; i < days; i++){
                 printf("price of breakfast for day %d: $", i+1);
                 fflush(stdout);
                 scanf("%lf", &meal.table[i][0]);
+                getchar();
                 if (meal.table[i][0] < 0) //checks if input is negative
                 {
                     printf("input a value >= 0\n");
@@ -78,6 +79,7 @@ for (int i = 0; i < days; i++){
                 printf("price of lunch for day %d: $", i+1);
                 fflush(stdout);
                 scanf("%lf", &meal.table[i][1]);
+                getchar();
                 if (meal.table[i][1] < 0) //checks if input is negative
                 {
                     printf("input a value >= 0\n");
@@ -106,6 +108,7 @@ for (int i = 0; i < days; i++){
                 printf("price of dinner for day %d: $", i+1);
                 fflush(stdout);
                 scanf("%lf", &meal.table[i][2]);
+                getchar();
                 if (meal.table[i][2] < 0) //checks if input is negative
                 {
                     printf("input a value >= 0\n");
