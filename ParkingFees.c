@@ -56,6 +56,7 @@ double parkingCostToBusinessman(int days, double totalExpenses) {
 }
 
 //unit testing
+/*
 int main() {
     double cost;
     int days = 3;
@@ -65,3 +66,4 @@ int main() {
     printf("money owed by businessman: $%0.2f\n", parkingCostToBusinessman(days, cost));
     return 0;
 }
+*/
