@@ -7,6 +7,7 @@ double getMilesDriven() {
     do {
         printf("Enter the number of Miles driven: \n");
         scanf(" %lf", &milesDriven);
+        getchar();
         if (milesDriven < 0) {
             printf("Invalid Input, try again\n");
         } else {

@@ -12,6 +12,7 @@ double getParkingFees() {
 
     do {
         scanf(" %lf", &parkingFee);
+        getchar();
         if (parkingFee < 0) {
             printf("invalid input, try again\n");
         } else {

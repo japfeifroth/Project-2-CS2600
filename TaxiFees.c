@@ -13,6 +13,7 @@ double getTaxiFees() {
 
     do {
         scanf(" %lf", &taxiFee);
+        getchar();
 
         if (taxiFee < 0) {
             printf("invalid input, try again\n");
