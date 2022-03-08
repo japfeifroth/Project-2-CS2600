@@ -18,6 +18,7 @@ double hotel_cost_per_day(){
         printf("Cost of hotel room per day: $");
         fflush(stdout);
         scanf("%lf", &costPerDay);
+        getchar();
         if (costPerDay < 0) //checks if input is negative
         {
             printf("input a value >= 0\n");
