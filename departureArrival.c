@@ -10,6 +10,7 @@ int getDeparture(){
     while(hour < 0 || hour > 23){
         printf("What hour will your flight depart?(From 0-23)\n");
         scanf("%d", &hour);
+        getchar();
         if(hour < 0 || hour > 23){
             printf("This is not a valid time slot, Please re-enter time\n");
         }
@@ -17,6 +18,7 @@ int getDeparture(){
     while(min < 0 || min > 59){
         printf("What minute will your flight depart?(From 0-59)\n");
         scanf("%d", &min);
+        getchar();
         if(min < 0 || min > 59){
             printf("This is not a valid time slot, Please re-enter time\n");
         }
@@ -33,6 +35,7 @@ int getArrival(){
     while(hour < 0 || hour > 23){
         printf("What hour will your flight arrive?(From 0-23)\n");
         scanf("%d", &hour);
+        getchar();
         if(hour < 0 || hour > 23){
             printf("This is not a valid time slot, Please re-enter time\n");
         }
@@ -40,6 +43,7 @@ int getArrival(){
     while(min < 0 || min > 59){
         printf("What minute will your flight arrive?(From 0-59)\n");
         scanf("%d", &min);
+        getchar();
         if(min < 0 || min > 59){
             printf("This is not a valid time slot, Please re-enter time\n");
         }
@@ -48,10 +52,10 @@ int getArrival(){
     return time;
 }
 
-//Unit testing functions
+/*Unit testing functions
 int main() {
     int departure = getDeparture();
     int arrival = getArrival();
     printf("Departure time stored is: %d\nArrival Time stored is: %d", departure, arrival);
     return 0;
-}
+}*/ 
