@@ -64,6 +64,7 @@ double hotel_saved(int days, double cost, double totalCost){
     return amountSaved;
 }
 
+/*
 //unit test
 int main(){
     //days would be from main, just redefining and asking for input here to test values
@@ -88,3 +89,4 @@ int main(){
     printf("Amount the employee saved: $%lf\n", hotelSaved);
     return 0;
 }
+*/
