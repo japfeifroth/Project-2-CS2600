@@ -10,6 +10,7 @@ double get_conference_seminar_fees(){
         printf("Enter conference or seminar registration fees: $");
         fflush(stdout);
         scanf("%lf", &conferenceSeminarFees);
+        getchar();
         if (conferenceSeminarFees < 0) //checks if input is negative
         {
             printf("input a value >= 0\n");
