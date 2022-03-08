@@ -235,6 +235,7 @@ double meals_total_saved(mealPrices meal, int days){
     return totalSaved;
 }
 
+/*
 //unit test
 int main(){
     //days and times of arrival and departure would be from main, just redefining and asking for input here to test values
@@ -276,3 +277,4 @@ int main(){
     }
     return 0;
 }
+*/
