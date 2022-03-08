@@ -19,6 +19,7 @@ double get_conference_seminar_fees(){
     return conferenceSeminarFees;
 }
 
+/*
 //unit test
 int main(){
     double conferencSeminarFees;
@@ -26,3 +27,4 @@ int main(){
     printf("Conference or Seminar fees: $%lf\n", conferencSeminarFees);
     return 0;
 }
+*/
